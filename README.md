@@ -1,68 +1,51 @@
-Task Manager
+# Task Manager
 
-A simple and minimal Flutter task management app with support for adding, editing, deleting, filtering, and sorting tasks. The app uses Provider for state management and SharedPreferences for local storage.
+A simple and minimal **Flutter task management app** with smooth animations and pastel-themed UI. Manage your tasks with add, edit, delete, filter, and sort features. The app uses **Provider** for state management and **SharedPreferences** for local storage.
 
-The UI features pastel colors, smooth animations, and a clean, modern design.
+## Features
 
-Features
+- Add, edit, and delete tasks
+- Mark tasks as completed
+- Filter tasks by status (All / Completed / Pending)
+- Sort tasks by due date (ascending / descending)
+- Smooth animations in task list
+- Pastel color theme
+- Persistent storage using SharedPreferences
+- Clean and minimal UI design
 
-Add, edit, and delete tasks
+## Getting Started
 
-Mark tasks as completed
+### Prerequisites
 
-Filter tasks by status (All / Completed / Pending)
+- Flutter SDK >= 3.7.2
+- Android Studio / VS Code / Xcode
+- Git
 
-Sort tasks by due date (ascending / descending)
+### Installation
 
-Smooth animations for task list
-
-Pastel color theme for a pleasing UI
-
-Persistent storage using SharedPreferences
-
-Minimal and responsive design
-
-
-Getting Started
-Prerequisites
-
-Flutter SDK >= 3.7.2
-
-Android Studio / VS Code / Xcode (for iOS)
-
-Git
-
-Installation
-
-Clone the repository:
-
+1. Clone the repository:
 git clone https://github.com/Amar5499/task_managemnet.git
 cd task_managemnet
-
-
-Install dependencies:
+2. Install dependencies:
 
 flutter pub get
-
-
-Run the app:
+3. Run the app:
 
 flutter run
 
-
-For iOS, you may need to open the .xcworkspace in Xcode and configure signing.
+For iOS, configure signing in Xcode before running.
 
 Usage
 
-Open the app to see the task list.
+Open the app to view your task list
 
-Tap Add Task to create a new task.
+Tap Add Task to create a new task
 
-Tap an existing task to edit.
+Tap a task to edit it
 
-Use the filter and sort buttons in the AppBar to organize tasks.
+Use AppBar icons to filter and sort tasks
 
-Mark tasks as completed or delete them with the buttons on each task tile.
+Mark tasks completed or delete via task tile buttons
 
 Dependencies
 
@@ -81,19 +64,3 @@ lib/
 ├─ domain/            # Entities
 ├─ presentation/      # UI screens and widgets
 └─ main.dart
-
-Notes
-
-The app uses SharedPreferences to store tasks locally.
-
-Animations are implemented in task list using FadeTransition and SlideTransition.
-
-Pastel color scheme for a soft, modern look.
-
-Filtering and sorting options are available in the AppBar.
-
-
-Author
-
-Amarbabu T
-GitHub: Amar5499
